@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../../../blockstack/clarity-smart-contracts"
+		},
+		{
+			"path": "../../../../blockstack/clarity-starter"
+		},
+		{
+			"path": "../../../../blockstack/cli-blockstack"
+		},
+		{
+			"path": "../../../../blockstack/stacks-blockchain"
+		},
+		{
+			"path": "../../../../blockstack/stacks-transactions-js"
+		},
+		{
+			"path": "../../../../blockstack/xmakina"
+		},
+		{
+			"path": "../../../../blockstack/clarity-js-sdk"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../brightblock-loop"
+		},
+		{
+			"path": "../../../fe-lsat"
+		}
+	],
+	"settings": {}
+}
