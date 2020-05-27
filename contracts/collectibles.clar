@@ -18,7 +18,7 @@
 (define-non-fungible-token collectible-token (buff 32))
 
 ;; Contract address - produced by calling cargo run --bin blockstack-cli generate-sk --testnet
-(define-constant contract-wallet 'ST18PE05NG1YN7X6VX9SN40NZYP7B6NQY6C96ZFRC.collectibles)
+(define-constant contract-address 'ST18PE05NG1YN7X6VX9SN40NZYP7B6NQY6C96ZFRC.collectibles)
 
 ;; Storage
 ;; project-data-map : stores saas client details

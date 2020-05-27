@@ -28,6 +28,7 @@
     "@blockstack/clarity": "^0.1.13",
     "@blockstack/clarity-native-bin": "^0.1.13",
     "@blockstack/stacks-transactions": "^0.4.0",
+    "@types/jest": "^25.2.3",
     "bn.js": "^5.1.1"
   }
 }

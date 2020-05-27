@@ -28,8 +28,8 @@ describe("collectibles tutorial test suite", () => {
 
   describe("Deploying an instance of the contract", () => {
     it("should mint a non fungible token", async () => {
-      const contractKeys = JSON.parse(fs.readFileSync("./keys3.json").toString());
-      const minterKeys = JSON.parse(fs.readFileSync("./keys4.json").toString());
+      const contractKeys = JSON.parse(fs.readFileSync("./keys-contract.json").toString());
+      const minterKeys = JSON.parse(fs.readFileSync("./keys-minter.json").toString());
   
       const contractName = "collectibles";
       const codeBody = fs
