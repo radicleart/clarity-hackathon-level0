@@ -37,7 +37,7 @@ async function execMethod(client: Client, signature: string, method: string, arg
     });
     await tx.sign(signature);
     const receipt = await client.submitTransaction(tx);
-    console.log(receipt);
+    // console.log(receipt);
     return receipt;
 };
 

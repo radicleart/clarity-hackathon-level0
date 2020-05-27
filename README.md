@@ -2,46 +2,25 @@
 
 ## Minting Non Fungible Digital Collectibles
 
-This contract allows non fungible tokens to be minted in exchange for a small quantity of STX.
-The specific amount of STX required to mint is project dependent and set by the project initiator.
-The contract is inspired by the Open Sea platform an Ethereum based digital collectible aggregator.
-The main goals here are;
+This contract is a building block in enabling a saas based digital collectible platform in the
+Blockstack eco-system for d-apps like loopbomb and radicle art. The contract defines a
+project space which will become spaces of art / collectible rojects. The idea is analogous to / inspired by the
+Open Sea Ethereum project.
 
-* minting of digital collectibles
-* cost of minting is configurable per project
+The main goals in the current context are;
 
-This contract connects with ongoing d-app  where project meta data and collectibles and other digital assets
-are stored decentrally using Gaia hubs. For this purpose digital collectibles is considered to be a space of SHA 256 hashes
-which secure the collectible itself and or its provenance (ownership history) data.
+* getting to grips with clarity and stacks
+* thinking about the core data structures needed for building a SaaS project on the stacks blockchain.
 
-## Testing Considertions
-
-Testing of this contract requires integration testing on the stacks mocknet. A high level description is presented below
-but most of the details were worked out by  [Friedger](https://github.com/friedger/clarity-smart-contracts) in Blockstack Community
-so please head over there and check out his `escrow` contract for full details.
-
-Generate two key sets using
+## Testing
 
 ```bash
-cargo run --bin blockstack-cli generate-sk --testnet
+git clone git@github.com:radicleart/clarity-hackathon-level0.git
+
+npm install
+
+npm run projects
 ```
-
-Edit Stacks.toml to add the public key and set initial balances and run mocknet
-
-```bash
-vi $HOME/stacks-blockchain/testnet/stacks-node/Stacks.toml
-
-nohup cargo testnet start --config=./testnet/stacks-node/Stacks.toml &
-
-// tail the log file to watch for runtime errors in your script...
-tail -f -n 200000 nohup.out | grep -i ST18PE05NG1YN7X6VX9SN40NZYP7B6NQY6C96ZFRC
-```
-
-Check balances and contract deployment using the API;
-
-* Minter Balance: http://127.0.0.1:20443/v2/accounts/ST18PE05NG1YN7X6VX9SN40NZYP7B6NQY6C96ZFRC
-* Contract Balance: http://127.0.0.1:20443/v2/accounts/STFJEDEQB1Y1CQ7F04CS62DCS5MXZVSNXXN413ZG
-* Contract Source: http://127.0.0.1:20443/v2/contracts/source/ST18PE05NG1YN7X6VX9SN40NZYP7B6NQY6C96ZFRC/collectibles
 
 ## References
 
