@@ -21,6 +21,8 @@ npm install
 npm run projects
 ```
 
+Tested with node version `nvm use v12.16.3`
+
 ## References
 
 * [Blockstack Clarity Documentation](https://docs.blockstack.org/core/smart/rpc-api.html)
