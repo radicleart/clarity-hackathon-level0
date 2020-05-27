@@ -3,14 +3,13 @@
 ## Minting Non Fungible Digital Collectibles
 
 This contract is a building block in enabling a saas based digital collectible platform in the
-Blockstack eco-system for d-apps like loopbomb and radicle art. The contract defines a
-project space which will become spaces of art / collectible rojects. The idea is analogous to / inspired by the
-Open Sea Ethereum project.
+Blockstack eco-system. It is analogous to and inspired by the Open Sea platform and aspires to
+bring a full blown marketplace for digital collectible projects to the Blockstack eco-system.
 
 The main goals in the current context are;
 
 * getting to grips with clarity and stacks
-* thinking about the core data structures needed for building a SaaS project on the stacks blockchain.
+* think about core data structures needed for building a SaaS project on the stacks blockchain.
 
 ## Testing
 
