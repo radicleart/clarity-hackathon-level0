@@ -18,7 +18,7 @@ git clone git@github.com:radicleart/clarity-hackathon-level0.git
 
 npm install
 
-npm run projects
+npm test
 ```
 
 Tested with node version `nvm use v12.16.3`
